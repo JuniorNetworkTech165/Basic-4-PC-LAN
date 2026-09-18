@@ -6,7 +6,7 @@ This lab demonstrates a basic Local Area Network (LAN) layout connecting four Vi
 ## Tools used.
 - **GNS3 (Graphical Network Simulator-3)**
 - **VPCS (Virtual PC Simulator)**
-- **Generic Ethernet switch**
+- **Generic Ethernet switch.**
 
 ## Network topology.
 ![4-PC LAN Topology](Lab2-topology.png)
@@ -17,9 +17,9 @@ This lab demonstrates a basic Local Area Network (LAN) layout connecting four Vi
 | PC1    | ethernet0 | 192.168.10.10    | 255.255.255.0 |
 | PC2    | ethernet0 | 192.168.10.11    | 255.255.255.0 |
 | PC3    | ethernet0 | 192.168.10.12    | 255.255.255.0 |
-| PC4    | ethernet  | 192.168.10.13    | 255.255.255.0 |
+| PC4    | ethernet0  | 192.168.10.13    | 255.255.255.0 |
 
-## Verification and Status
+## Verification and Status.
 - [x] Network topology created in GNS3.
 - [X] All devices powered on.
 - [x] IP configuration applied on all VPCS nodes.
